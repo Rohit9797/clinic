@@ -1,0 +1,461 @@
+<!--
+  MIT License
+  Copyright (c) 2025 ScriptedWebs
+-->
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Learn about MedCare Hospital's mission, values, and commitment to providing exceptional healthcare services with experienced medical professionals.">
+    <title>About Us - MedCare Hospital</title>
+    
+    <link rel="stylesheet" href="/assets/css/main.css">
+    <link rel="icon" type="image/svg+xml" href="/assets/images/favicon.svg">
+    <link rel="canonical" href="https://medcare-hospital.com/about.html">
+    
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://medcare-hospital.com"
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "About Us"
+            }
+        ]
+    }
+    </script>
+</head>
+<body>
+    <a href="#main" class="skip-link">Skip to main content</a>
+    
+    <header class="header" role="banner">
+        <nav class="nav" role="navigation" aria-label="Main navigation">
+            <div class="nav__container">
+                <a href="/" class="nav__logo" aria-label="MedCare Hospital Home">
+                    <svg class="nav__logo-svg" width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect width="40" height="40" rx="8" fill="var(--color-primary)"/>
+                        <path d="M20 8L22 12H28L24 16L26 20L20 16L14 20L16 16L12 12H18L20 8Z" fill="white"/>
+                        <rect x="18" y="22" width="4" height="10" fill="white"/>
+                        <rect x="13" y="27" width="14" height="4" fill="white"/>
+                    </svg>
+                    <span class="nav__logo-text">MedCare</span>
+                </a>
+                
+                <button class="nav__toggle" aria-label="Toggle navigation menu" aria-expanded="false">
+                    <span class="nav__hamburger"></span>
+                </button>
+                
+                <ul class="nav__menu" role="menubar">
+                    <li class="nav__item" role="none">
+                        <a href="/" class="nav__link" role="menuitem">Home</a>
+                    </li>
+                    <li class="nav__item" role="none">
+                        <a href="/about.html" class="nav__link nav__link--active" role="menuitem">About</a>
+                    </li>
+                    <li class="nav__item" role="none">
+                        <a href="/services.html" class="nav__link" role="menuitem">Services</a>
+                    </li>
+                    <li class="nav__item" role="none">
+                        <a href="/doctors.html" class="nav__link" role="menuitem">Doctors</a>
+                    </li>
+                    <li class="nav__item" role="none">
+                        <a href="/appointments.html" class="nav__link" role="menuitem">Appointments</a>
+                    </li>
+                    <li class="nav__item" role="none">
+                        <a href="/contact.html" class="nav__link" role="menuitem">Contact</a>
+                    </li>
+                    <li class="nav__item" role="none">
+                        <a href="/blog.html" class="nav__link" role="menuitem">Blog</a>
+                    </li>
+                </ul>
+                
+                <button class="theme-toggle" aria-label="Toggle dark mode" title="Toggle dark mode">
+                    <svg class="theme-toggle__icon theme-toggle__icon--light" width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="12" cy="12" r="5" stroke="currentColor" stroke-width="2"/>
+                        <path d="M12 1V3M12 21V23M4.22 4.22L5.64 5.64M18.36 18.36L19.78 19.78M1 12H3M21 12H23M4.22 19.78L5.64 18.36M18.36 5.64L19.78 4.22" stroke="currentColor" stroke-width="2"/>
+                    </svg>
+                    <svg class="theme-toggle__icon theme-toggle__icon--dark" width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79Z" stroke="currentColor" stroke-width="2"/>
+                    </svg>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <main id="main" class="main" role="main">
+        <!-- Breadcrumb -->
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+            <div class="breadcrumb__container">
+                <ol class="breadcrumb__list">
+                    <li class="breadcrumb__item">
+                        <a href="/" class="breadcrumb__link">Home</a>
+                    </li>
+                    <li class="breadcrumb__item breadcrumb__item--current" aria-current="page">
+                        About Us
+                    </li>
+                </ol>
+            </div>
+        </nav>
+
+        <!-- Page Hero -->
+        <section class="page-hero" aria-labelledby="page-hero-title">
+            <div class="page-hero__container">
+                <div class="page-hero__content">
+                    <h1 id="page-hero-title" class="page-hero__title">About MedCare Hospital</h1>
+                    <p class="page-hero__description">
+                        For over 25 years, we've been dedicated to providing exceptional healthcare services with compassion, innovation, and unwavering commitment to our patients' well-being.
+                    </p>
+                </div>
+                <div class="page-hero__image">
+                    <img src="https://images.pexels.com/photos/263402/pexels-photo-263402.jpeg?auto=compress&cs=tinysrgb&w=800" 
+                         alt="MedCare Hospital building exterior" 
+                         loading="eager"
+                         width="600" 
+                         height="400"
+                         class="page-hero__img">
+                </div>
+            </div>
+        </section>
+
+        <!-- Mission & Values -->
+        <section class="mission-values" aria-labelledby="mission-title">
+            <div class="mission-values__container">
+                <div class="section-header">
+                    <h2 id="mission-title" class="section-header__title">Our Mission & Values</h2>
+                </div>
+                
+                <div class="mission-values__grid">
+                    <div class="value-card">
+                        <div class="value-card__icon">
+                            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M20.84 4.61A5.5 5.5 0 0 0 16.5 2.5A5.5 5.5 0 0 0 12 4.33A5.5 5.5 0 0 0 7.5 2.5A5.5 5.5 0 0 0 3.16 4.61C1.84 5.95 1.84 8.05 3.16 9.39L12 18.5L20.84 9.39C22.16 8.05 22.16 5.95 20.84 4.61Z" stroke="currentColor" stroke-width="2"/>
+                            </svg>
+                        </div>
+                        <h3 class="value-card__title">Compassionate Care</h3>
+                        <p class="value-card__description">
+                            We treat every patient with dignity, respect, and empathy, understanding that healing extends beyond medical treatment.
+                        </p>
+                    </div>
+                    
+                    <div class="value-card">
+                        <div class="value-card__icon">
+                            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="2"/>
+                                <path d="M9 12L11 14L15 10" stroke="currentColor" stroke-width="2"/>
+                            </svg>
+                        </div>
+                        <h3 class="value-card__title">Excellence</h3>
+                        <p class="value-card__description">
+                            We strive for the highest standards in medical care, continuously improving our services and outcomes.
+                        </p>
+                    </div>
+                    
+                    <div class="value-card">
+                        <div class="value-card__icon">
+                            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M12 2L3.09 8.26L12 22L20.91 8.26L12 2Z" stroke="currentColor" stroke-width="2"/>
+                                <path d="M12 15L8.5 9.5L15.5 9.5L12 15Z" fill="currentColor"/>
+                            </svg>
+                        </div>
+                        <h3 class="value-card__title">Innovation</h3>
+                        <p class="value-card__description">
+                            We embrace cutting-edge technology and medical advances to provide the most effective treatments available.
+                        </p>
+                    </div>
+                    
+                    <div class="value-card">
+                        <div class="value-card__icon">
+                            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M16 21V19A4 4 0 0 0 12 15H5A4 4 0 0 0 1 19V21" stroke="currentColor" stroke-width="2"/>
+                                <circle cx="8.5" cy="7" r="4" stroke="currentColor" stroke-width="2"/>
+                                <path d="M20 8V14" stroke="currentColor" stroke-width="2"/>
+                                <path d="M23 11H17" stroke="currentColor" stroke-width="2"/>
+                            </svg>
+                        </div>
+                        <h3 class="value-card__title">Community</h3>
+                        <p class="value-card__description">
+                            We are committed to serving our community's health needs and improving the overall well-being of those we serve.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- History -->
+        <section class="history" aria-labelledby="history-title">
+            <div class="history__container">
+                <div class="history__content">
+                    <div class="history__text">
+                        <h2 id="history-title" class="history__title">Our Story</h2>
+                        <div class="history__narrative">
+                            <p>
+                                Founded in 1999 by Dr. Elizabeth MedCare and a group of visionary healthcare professionals, MedCare Hospital began as a small community clinic with a big dream: to provide world-class healthcare that's accessible, affordable, and centered around patient needs.
+                            </p>
+                            <p>
+                                Over the past 25 years, we've grown from a 20-bed facility to a comprehensive medical center with over 200 beds, state-of-the-art equipment, and a team of more than 150 specialists. Our journey has been marked by continuous innovation, from being the first hospital in the region to implement electronic health records to pioneering minimally invasive surgical techniques.
+                            </p>
+                            <p>
+                                Today, MedCare Hospital stands as a beacon of hope and healing in our community, serving over 50,000 patients annually while maintaining the personal touch and compassionate care that has defined us from the beginning.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="history__image">
+                        <img src="https://images.pexels.com/photos/236380/pexels-photo-236380.jpeg?auto=compress&cs=tinysrgb&w=600" 
+                             alt="Historic photo of MedCare Hospital's early days" 
+                             loading="lazy"
+                             width="600" 
+                             height="400"
+                             class="history__img">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Leadership Team -->
+        <section class="leadership" aria-labelledby="leadership-title">
+            <div class="leadership__container">
+                <div class="section-header">
+                    <h2 id="leadership-title" class="section-header__title">Leadership Team</h2>
+                    <p class="section-header__description">
+                        Meet the dedicated professionals leading MedCare Hospital's mission
+                    </p>
+                </div>
+                
+                <div class="leadership__grid">
+                    <div class="leader-card">
+                        <div class="leader-card__image">
+                            <img src="https://images.pexels.com/photos/5452201/pexels-photo-5452201.jpeg?auto=compress&cs=tinysrgb&w=300" 
+                                 alt="Dr. Sarah Mitchell, Chief Medical Officer" 
+                                 loading="lazy"
+                                 width="300" 
+                                 height="300"
+                                 class="leader-card__img">
+                        </div>
+                        <div class="leader-card__content">
+                            <h3 class="leader-card__name">Dr. Sarah Mitchell</h3>
+                            <p class="leader-card__title">Chief Medical Officer</p>
+                            <p class="leader-card__description">
+                                Dr. Mitchell brings over 20 years of clinical excellence and healthcare leadership experience, specializing in internal medicine and healthcare administration.
+                            </p>
+                        </div>
+                    </div>
+                    
+                    <div class="leader-card">
+                        <div class="leader-card__image">
+                            <img src="https://images.pexels.com/photos/5452293/pexels-photo-5452293.jpeg?auto=compress&cs=tinysrgb&w=300" 
+                                 alt="Dr. Michael Rodriguez, Chief of Surgery" 
+                                 loading="lazy"
+                                 width="300" 
+                                 height="300"
+                                 class="leader-card__img">
+                        </div>
+                        <div class="leader-card__content">
+                            <h3 class="leader-card__name">Dr. Michael Rodriguez</h3>
+                            <p class="leader-card__title">Chief of Surgery</p>
+                            <p class="leader-card__description">
+                                A renowned surgeon with expertise in minimally invasive procedures and surgical innovation, Dr. Rodriguez leads our surgical department with precision and care.
+                            </p>
+                        </div>
+                    </div>
+                    
+                    <div class="leader-card">
+                        <div class="leader-card__image">
+                            <img src="https://images.pexels.com/photos/5452274/pexels-photo-5452274.jpeg?auto=compress&cs=tinysrgb&w=300" 
+                                 alt="Jennifer Adams, CEO" 
+                                 loading="lazy"
+                                 width="300" 
+                                 height="300"
+                                 class="leader-card__img">
+                        </div>
+                        <div class="leader-card__content">
+                            <h3 class="leader-card__name">Jennifer Adams</h3>
+                            <p class="leader-card__title">Chief Executive Officer</p>
+                            <p class="leader-card__description">
+                                With an MBA in Healthcare Management and 15 years of hospital administration experience, Jennifer leads our strategic vision and operational excellence.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Accreditations -->
+        <section class="accreditations" aria-labelledby="accreditations-title">
+            <div class="accreditations__container">
+                <div class="section-header">
+                    <h2 id="accreditations-title" class="section-header__title">Accreditations & Awards</h2>
+                    <p class="section-header__description">
+                        Recognition of our commitment to quality healthcare
+                    </p>
+                </div>
+                
+                <div class="accreditations__grid">
+                    <div class="accreditation-item">
+                        <div class="accreditation-item__icon">
+                            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M12 15L8.5 9.5L15.5 9.5L12 15Z" fill="currentColor"/>
+                                <circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="2"/>
+                            </svg>
+                        </div>
+                        <h3 class="accreditation-item__title">Joint Commission Accredited</h3>
+                        <p class="accreditation-item__description">
+                            Gold Seal of Approval for meeting the highest standards of quality and safety
+                        </p>
+                    </div>
+                    
+                    <div class="accreditation-item">
+                        <div class="accreditation-item__icon">
+                            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <polygon points="12,2 15.09,8.26 22,9 17,14.14 18.18,21.02 12,17.77 5.82,21.02 7,14.14 2,9 8.91,8.26 12,2" stroke="currentColor" stroke-width="2" fill="currentColor"/>
+                            </svg>
+                        </div>
+                        <h3 class="accreditation-item__title">5-Star CMS Rating</h3>
+                        <p class="accreditation-item__description">
+                            Highest rating from Centers for Medicare & Medicaid Services for overall quality
+                        </p>
+                    </div>
+                    
+                    <div class="accreditation-item">
+                        <div class="accreditation-item__icon">
+                            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M9 12L11 14L15 10" stroke="currentColor" stroke-width="2"/>
+                                <circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="2"/>
+                            </svg>
+                        </div>
+                        <h3 class="accreditation-item__title">Magnet Recognition</h3>
+                        <p class="accreditation-item__description">
+                            Excellence in nursing services and quality patient outcomes
+                        </p>
+                    </div>
+                    
+                    <div class="accreditation-item">
+                        <div class="accreditation-item__icon">
+                            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M20.84 4.61A5.5 5.5 0 0 0 16.5 2.5A5.5 5.5 0 0 0 12 4.33A5.5 5.5 0 0 0 7.5 2.5A5.5 5.5 0 0 0 3.16 4.61C1.84 5.95 1.84 8.05 3.16 9.39L12 18.5L20.84 9.39C22.16 8.05 22.16 5.95 20.84 4.61Z" stroke="currentColor" stroke-width="2"/>
+                            </svg>
+                        </div>
+                        <h3 class="accreditation-item__title">Patient Safety Excellence</h3>
+                        <p class="accreditation-item__description">
+                            Healthgrades Patient Safety Excellence Award for superior patient safety outcomes
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Section -->
+        <section class="cta" aria-labelledby="cta-title">
+            <div class="cta__container">
+                <div class="cta__content">
+                    <h2 id="cta-title" class="cta__title">Experience the MedCare Difference</h2>
+                    <p class="cta__description">
+                        Join the thousands of patients who trust MedCare Hospital with their healthcare needs.
+                    </p>
+                    <a href="/appointments.html" class="btn btn--primary btn--large">Schedule Your Visit</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer" role="contentinfo">
+        <div class="footer__container">
+            <div class="footer__main">
+                <div class="footer__section">
+                    <div class="footer__logo">
+                        <svg width="32" height="32" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect width="40" height="40" rx="8" fill="var(--color-primary)"/>
+                            <path d="M20 8L22 12H28L24 16L26 20L20 16L14 20L16 16L12 12H18L20 8Z" fill="white"/>
+                            <rect x="18" y="22" width="4" height="10" fill="white"/>
+                            <rect x="13" y="27" width="14" height="4" fill="white"/>
+                        </svg>
+                        <span class="footer__logo-text">MedCare Hospital</span>
+                    </div>
+                    <p class="footer__description">
+                        Providing exceptional healthcare services with compassion, expertise, and state-of-the-art technology.
+                    </p>
+                    <div class="footer__contact">
+                        <p><strong>Emergency:</strong> <a href="tel:911" class="footer__link">911</a></p>
+                        <p><strong>Main:</strong> <a href="tel:+1555MEDCARE" class="footer__link">+1-555-MEDCARE</a></p>
+                        <p><strong>Email:</strong> <a href="mailto:info@medcare-hospital.com" class="footer__link">info@medcare-hospital.com</a></p>
+                    </div>
+                </div>
+                
+                <div class="footer__section">
+                    <h3 class="footer__title">Quick Links</h3>
+                    <ul class="footer__links">
+                        <li><a href="/about.html" class="footer__link">About Us</a></li>
+                        <li><a href="/services.html" class="footer__link">Services</a></li>
+                        <li><a href="/doctors.html" class="footer__link">Find a Doctor</a></li>
+                        <li><a href="/appointments.html" class="footer__link">Appointments</a></li>
+                        <li><a href="/contact.html" class="footer__link">Contact</a></li>
+                        <li><a href="/faq.html" class="footer__link">FAQ</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer__section">
+                    <h3 class="footer__title">Patient Resources</h3>
+                    <ul class="footer__links">
+                        <li><a href="/blog.html" class="footer__link">Health Blog</a></li>
+                        <li><a href="/privacy.html" class="footer__link">Privacy Policy</a></li>
+                        <li><a href="/terms.html" class="footer__link">Terms of Service</a></li>
+                        <li><a href="#" class="footer__link">Patient Portal</a></li>
+                        <li><a href="#" class="footer__link">Insurance</a></li>
+                        <li><a href="#" class="footer__link">Billing</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer__section">
+                    <h3 class="footer__title">Visit Us</h3>
+                    <address class="footer__address">
+                        123 Medical Drive<br>
+                        Healthcare City, HC 12345<br>
+                        United States
+                    </address>
+                    <p class="footer__hours">
+                        <strong>Emergency:</strong> 24/7<br>
+                        <strong>Clinic Hours:</strong> Mon-Fri 8AM-6PM
+                    </p>
+                </div>
+            </div>
+            
+            <div class="footer__bottom">
+                <p class="footer__copyright">
+                    &copy; 2025 MedCare Hospital. All rights reserved. | | Developed by
+                    <a href="https://www.scriptedwebs.in" target="_blank" rel="noopener noreferrer">ScriptedWebs</a>
+                </p>
+                <div class="footer__social">
+                    <a href="#" class="footer__social-link" aria-label="Facebook">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+                        </svg>
+                    </a>
+                    <a href="#" class="footer__social-link" aria-label="Twitter">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z"/>
+                        </svg>
+                    </a>
+                    <a href="#" class="footer__social-link" aria-label="LinkedIn">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="/assets/js/main.js"></script>
+</body>
+</html>

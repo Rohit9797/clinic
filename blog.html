@@ -1,0 +1,1204 @@
+<!--
+  MIT License
+  Copyright (c) 2025 ScriptedWebs
+-->
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="MedCare Hospital health blog featuring expert medical advice, wellness tips, and healthcare insights from our medical professionals.">
+    <title>Health Blog - MedCare Hospital</title>
+    
+    <link rel="stylesheet" href="/assets/css/main.css">
+    <link rel="icon" type="image/svg+xml" href="/assets/images/favicon.svg">
+    <link rel="canonical" href="https://medcare-hospital.com/blog.html">
+    
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Blog",
+        "name": "MedCare Hospital Health Blog",
+        "description": "Expert medical advice and health insights from MedCare Hospital professionals",
+        "url": "https://medcare-hospital.com/blog.html",
+        "publisher": {
+            "@type": "Organization",
+            "name": "MedCare Hospital",
+            "logo": "https://medcare-hospital.com/assets/images/logo.svg"
+        }
+    }
+    </script>
+</head>
+<body>
+    <a href="#main" class="skip-link">Skip to main content</a>
+    
+    <header class="header" role="banner">
+        <nav class="nav" role="navigation" aria-label="Main navigation">
+            <div class="nav__container">
+                <a href="/" class="nav__logo" aria-label="MedCare Hospital Home">
+                    <svg class="nav__logo-svg" width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect width="40" height="40" rx="8" fill="var(--color-primary)"/>
+                        <path d="M20 8L22 12H28L24 16L26 20L20 16L14 20L16 16L12 12H18L20 8Z" fill="white"/>
+                        <rect x="18" y="22" width="4" height="10" fill="white"/>
+                        <rect x="13" y="27" width="14" height="4" fill="white"/>
+                    </svg>
+                    <span class="nav__logo-text">MedCare</span>
+                </a>
+                
+                <button class="nav__toggle" aria-label="Toggle navigation menu" aria-expanded="false">
+                    <span class="nav__hamburger"></span>
+                </button>
+                
+                <ul class="nav__menu" role="menubar">
+                    <li class="nav__item" role="none">
+                        <a href="/" class="nav__link" role="menuitem">Home</a>
+                    </li>
+                    <li class="nav__item" role="none">
+                        <a href="/about.html" class="nav__link" role="menuitem">About</a>
+                    </li>
+                    <li class="nav__item" role="none">
+                        <a href="/services.html" class="nav__link" role="menuitem">Services</a>
+                    </li>
+                    <li class="nav__item" role="none">
+                        <a href="/doctors.html" class="nav__link" role="menuitem">Doctors</a>
+                    </li>
+                    <li class="nav__item" role="none">
+                        <a href="/appointments.html" class="nav__link" role="menuitem">Appointments</a>
+                    </li>
+                    <li class="nav__item" role="none">
+                        <a href="/contact.html" class="nav__link" role="menuitem">Contact</a>
+                    </li>
+                    <li class="nav__item" role="none">
+                        <a href="/blog.html" class="nav__link nav__link--active" role="menuitem">Blog</a>
+                    </li>
+                </ul>
+                
+                <button class="theme-toggle" aria-label="Toggle dark mode" title="Toggle dark mode">
+                    <svg class="theme-toggle__icon theme-toggle__icon--light" width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="12" cy="12" r="5" stroke="currentColor" stroke-width="2"/>
+                        <path d="M12 1V3M12 21V23M4.22 4.22L5.64 5.64M18.36 18.36L19.78 19.78M1 12H3M21 12H23M4.22 19.78L5.64 18.36M18.36 5.64L19.78 4.22" stroke="currentColor" stroke-width="2"/>
+                    </svg>
+                    <svg class="theme-toggle__icon theme-toggle__icon--dark" width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79Z" stroke="currentColor" stroke-width="2"/>
+                    </svg>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <main id="main" class="main" role="main">
+        <!-- Breadcrumb -->
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+            <div class="breadcrumb__container">
+                <ol class="breadcrumb__list">
+                    <li class="breadcrumb__item">
+                        <a href="/" class="breadcrumb__link">Home</a>
+                    </li>
+                    <li class="breadcrumb__item breadcrumb__item--current" aria-current="page">
+                        Blog
+                    </li>
+                </ol>
+            </div>
+        </nav>
+
+        <!-- Page Hero -->
+        <section class="page-hero" aria-labelledby="page-hero-title">
+            <div class="page-hero__container">
+                <div class="page-hero__content">
+                    <h1 id="page-hero-title" class="page-hero__title">Health & Wellness Blog</h1>
+                    <p class="page-hero__description">
+                        Stay informed with expert medical advice, health tips, and wellness insights from our team of healthcare professionals at MedCare Hospital.
+                    </p>
+                </div>
+                <div class="page-hero__image">
+                    <img src="https://images.pexels.com/photos/4173251/pexels-photo-4173251.jpeg?auto=compress&cs=tinysrgb&w=800" 
+                         alt="Healthcare professionals sharing knowledge" 
+                         loading="eager"
+                         width="600" 
+                         height="400"
+                         class="page-hero__img">
+                </div>
+            </div>
+        </section>
+
+        <!-- Featured Post -->
+        <section class="featured-post" aria-labelledby="featured-title">
+            <div class="featured-post__container">
+                <h2 id="featured-title" class="sr-only">Featured Article</h2>
+                <article class="featured-article">
+                    <div class="featured-article__image">
+                        <img src="https://images.pexels.com/photos/4386467/pexels-photo-4386467.jpeg?auto=compress&cs=tinysrgb&w=800" 
+                             alt="Heart health and cardiovascular wellness" 
+                             loading="lazy"
+                             width="800" 
+                             height="400"
+                             class="featured-article__img">
+                        <div class="featured-article__badge">Featured</div>
+                    </div>
+                    <div class="featured-article__content">
+                        <div class="featured-article__meta">
+                            <span class="featured-article__category">Cardiology</span>
+                            <time class="featured-article__date" datetime="2024-01-15">January 15, 2024</time>
+                        </div>
+                        <h3 class="featured-article__title">
+                            <a href="/blog/heart-health-prevention-tips.html" class="featured-article__link">
+                                10 Essential Heart Health Tips for a Stronger Cardiovascular System
+                            </a>
+                        </h3>
+                        <p class="featured-article__excerpt">
+                            Discover evidence-based strategies to protect your heart health and reduce your risk of cardiovascular disease. Our cardiology experts share practical tips you can implement today.
+                        </p>
+                        <div class="featured-article__author">
+                            <img src="https://images.pexels.com/photos/5452201/pexels-photo-5452201.jpeg?auto=compress&cs=tinysrgb&w=100" 
+                                 alt="Dr. Sarah Mitchell" 
+                                 loading="lazy"
+                                 width="40" 
+                                 height="40"
+                                 class="featured-article__author-img">
+                            <div class="featured-article__author-info">
+                                <span class="featured-article__author-name">Dr. Sarah Mitchell</span>
+                                <span class="featured-article__author-title">Chief Medical Officer</span>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- Blog Categories -->
+        <section class="blog-categories" aria-labelledby="categories-title">
+            <div class="blog-categories__container">
+                <h2 id="categories-title" class="blog-categories__title">Browse by Category</h2>
+                <div class="blog-categories__grid">
+                    <a href="#cardiology" class="category-card" data-category="cardiology">
+                        <div class="category-card__icon">
+                            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M20.84 4.61A5.5 5.5 0 0 0 16.5 2.5A5.5 5.5 0 0 0 12 4.33A5.5 5.5 0 0 0 7.5 2.5A5.5 5.5 0 0 0 3.16 4.61C1.84 5.95 1.84 8.05 3.16 9.39L12 18.5L20.84 9.39C22.16 8.05 22.16 5.95 20.84 4.61Z" stroke="currentColor" stroke-width="2"/>
+                            </svg>
+                        </div>
+                        <h3 class="category-card__title">Cardiology</h3>
+                        <span class="category-card__count">8 articles</span>
+                    </a>
+                    
+                    <a href="#pediatrics" class="category-card" data-category="pediatrics">
+                        <div class="category-card__icon">
+                            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="9" cy="7" r="4" stroke="currentColor" stroke-width="2"/>
+                                <path d="M3 21V19A4 4 0 0 1 7 15H11A4 4 0 0 1 15 19V21" stroke="currentColor" stroke-width="2"/>
+                                <path d="M16 3.13A4 4 0 0 1 16 11.13" stroke="currentColor" stroke-width="2"/>
+                                <path d="M21 21V19A4 4 0 0 0 17 15" stroke="currentColor" stroke-width="2"/>
+                            </svg>
+                        </div>
+                        <h3 class="category-card__title">Pediatrics</h3>
+                        <span class="category-card__count">6 articles</span>
+                    </a>
+                    
+                    <a href="#wellness" class="category-card" data-category="wellness">
+                        <div class="category-card__icon">
+                            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="12" cy="12" r="5" stroke="currentColor" stroke-width="2"/>
+                                <path d="M12 1V3M12 21V23M4.22 4.22L5.64 5.64M18.36 18.36L19.78 19.78M1 12H3M21 12H23M4.22 19.78L5.64 18.36M18.36 5.64L19.78 4.22" stroke="currentColor" stroke-width="2"/>
+                            </svg>
+                        </div>
+                        <h3 class="category-card__title">Wellness</h3>
+                        <span class="category-card__count">12 articles</span>
+                    </a>
+                    
+                    <a href="#nutrition" class="category-card" data-category="nutrition">
+                        <div class="category-card__icon">
+                            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M12 2L13.09 8.26L22 9L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9L10.91 8.26L12 2Z" stroke="currentColor" stroke-width="2"/>
+                            </svg>
+                        </div>
+                        <h3 class="category-card__title">Nutrition</h3>
+                        <span class="category-card__count">9 articles</span>
+                    </a>
+                    
+                    <a href="#mental-health" class="category-card" data-category="mental-health">
+                        <div class="category-card__icon">
+                            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M12 2L12 6" stroke="currentColor" stroke-width="2"/>
+                                <path d="M12 18L12 22" stroke="currentColor" stroke-width="2"/>
+                                <path d="M4.93 4.93L7.76 7.76" stroke="currentColor" stroke-width="2"/>
+                                <path d="M16.24 16.24L19.07 19.07" stroke="currentColor" stroke-width="2"/>
+                                <path d="M2 12L6 12" stroke="currentColor" stroke-width="2"/>
+                                <path d="M18 12L22 12" stroke="currentColor" stroke-width="2"/>
+                                <path d="M4.93 19.07L7.76 16.24" stroke="currentColor" stroke-width="2"/>
+                                <path d="M16.24 7.76L19.07 4.93" stroke="currentColor" stroke-width="2"/>
+                                <circle cx="12" cy="12" r="3" stroke="currentColor" stroke-width="2"/>
+                            </svg>
+                        </div>
+                        <h3 class="category-card__title">Mental Health</h3>
+                        <span class="category-card__count">7 articles</span>
+                    </a>
+                    
+                    <a href="#prevention" class="category-card" data-category="prevention">
+                        <div class="category-card__icon">
+                            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M12 22S8 18 8 13V6L12 4L16 6V13C16 18 12 22 12 22Z" stroke="currentColor" stroke-width="2"/>
+                            </svg>
+                        </div>
+                        <h3 class="category-card__title">Prevention</h3>
+                        <span class="category-card__count">10 articles</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Blog Posts -->
+        <section class="blog-posts" aria-labelledby="posts-title">
+            <div class="blog-posts__container">
+                <div class="blog-posts__header">
+                    <h2 id="posts-title" class="blog-posts__title">Latest Articles</h2>
+                    <div class="blog-posts__filters">
+                        <button class="filter-btn filter-btn--active" data-filter="all">All Articles</button>
+                        <button class="filter-btn" data-filter="cardiology">Cardiology</button>
+                        <button class="filter-btn" data-filter="pediatrics">Pediatrics</button>
+                        <button class="filter-btn" data-filter="wellness">Wellness</button>
+                        <button class="filter-btn" data-filter="nutrition">Nutrition</button>
+                        <button class="filter-btn" data-filter="mental-health">Mental Health</button>
+                        <button class="filter-btn" data-filter="prevention">Prevention</button>
+                    </div>
+                </div>
+                
+                <div class="blog-posts__grid" id="blog-posts-grid">
+                    <!-- Blog posts will be dynamically populated -->
+                </div>
+                
+                <div class="blog-posts__pagination">
+                    <button class="btn btn--outline" id="load-more-btn">Load More Articles</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Newsletter Signup -->
+        <section class="newsletter" aria-labelledby="newsletter-title">
+            <div class="newsletter__container">
+                <div class="newsletter__content">
+                    <h2 id="newsletter-title" class="newsletter__title">Stay Updated with Health Tips</h2>
+                    <p class="newsletter__description">
+                        Subscribe to our newsletter and receive the latest health insights, wellness tips, and medical updates directly in your inbox.
+                    </p>
+                    <form class="newsletter__form" id="newsletter-form">
+                        <div class="newsletter__input-group">
+                            <label for="newsletter-email" class="sr-only">Email address</label>
+                            <input type="email" 
+                                   id="newsletter-email" 
+                                   name="email" 
+                                   class="newsletter__input" 
+                                   placeholder="Enter your email address" 
+                                   required>
+                            <button type="submit" class="newsletter__btn">Subscribe</button>
+                        </div>
+                        <p class="newsletter__privacy">
+                            By subscribing, you agree to our <a href="/privacy.html">Privacy Policy</a>. Unsubscribe at any time.
+                        </p>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer" role="contentinfo">
+        <div class="footer__container">
+            <div class="footer__main">
+                <div class="footer__section">
+                    <div class="footer__logo">
+                        <svg width="32" height="32" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect width="40" height="40" rx="8" fill="var(--color-primary)"/>
+                            <path d="M20 8L22 12H28L24 16L26 20L20 16L14 20L16 16L12 12H18L20 8Z" fill="white"/>
+                            <rect x="18" y="22" width="4" height="10" fill="white"/>
+                            <rect x="13" y="27" width="14" height="4" fill="white"/>
+                        </svg>
+                        <span class="footer__logo-text">MedCare Hospital</span>
+                    </div>
+                    <p class="footer__description">
+                        Providing exceptional healthcare services with compassion, expertise, and state-of-the-art technology.
+                    </p>
+                    <div class="footer__contact">
+                        <p><strong>Emergency:</strong> <a href="tel:911" class="footer__link">911</a></p>
+                        <p><strong>Main:</strong> <a href="tel:+1555MEDCARE" class="footer__link">+1-555-MEDCARE</a></p>
+                        <p><strong>Email:</strong> <a href="mailto:info@medcare-hospital.com" class="footer__link">info@medcare-hospital.com</a></p>
+                    </div>
+                </div>
+                
+                <div class="footer__section">
+                    <h3 class="footer__title">Quick Links</h3>
+                    <ul class="footer__links">
+                        <li><a href="/about.html" class="footer__link">About Us</a></li>
+                        <li><a href="/services.html" class="footer__link">Services</a></li>
+                        <li><a href="/doctors.html" class="footer__link">Find a Doctor</a></li>
+                        <li><a href="/appointments.html" class="footer__link">Appointments</a></li>
+                        <li><a href="/contact.html" class="footer__link">Contact</a></li>
+                        <li><a href="/faq.html" class="footer__link">FAQ</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer__section">
+                    <h3 class="footer__title">Patient Resources</h3>
+                    <ul class="footer__links">
+                        <li><a href="/blog.html" class="footer__link">Health Blog</a></li>
+                        <li><a href="/privacy.html" class="footer__link">Privacy Policy</a></li>
+                        <li><a href="/terms.html" class="footer__link">Terms of Service</a></li>
+                        <li><a href="#" class="footer__link">Patient Portal</a></li>
+                        <li><a href="#" class="footer__link">Insurance</a></li>
+                        <li><a href="#" class="footer__link">Billing</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer__section">
+                    <h3 class="footer__title">Visit Us</h3>
+                    <address class="footer__address">
+                        123 Medical Drive<br>
+                        Healthcare City, HC 12345<br>
+                        United States
+                    </address>
+                    <p class="footer__hours">
+                        <strong>Emergency:</strong> 24/7<br>
+                        <strong>Clinic Hours:</strong> Mon-Fri 8AM-6PM
+                    </p>
+                </div>
+            </div>
+            
+            <div class="footer__bottom">
+                <p class="footer__copyright">
+                    &copy; 2025 MedCare Hospital. All rights reserved. | | Developed by
+                    <a href="https://www.scriptedwebs.in" target="_blank" rel="noopener noreferrer">ScriptedWebs</a>
+                </p>
+                <div class="footer__social">
+                    <a href="#" class="footer__social-link" aria-label="Facebook">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+                        </svg>
+                    </a>
+                    <a href="#" class="footer__social-link" aria-label="Twitter">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z"/>
+                        </svg>
+                    </a>
+                    <a href="#" class="footer__social-link" aria-label="LinkedIn">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="/assets/js/main.js"></script>
+    <script>
+        // Blog functionality
+        (function() {
+            'use strict';
+            
+            // Sample blog posts data
+            const blogPosts = [
+                {
+                    id: 1,
+                    title: "10 Essential Heart Health Tips for a Stronger Cardiovascular System",
+                    excerpt: "Discover evidence-based strategies to protect your heart health and reduce your risk of cardiovascular disease.",
+                    category: "cardiology",
+                    author: "Dr. Sarah Mitchell",
+                    authorTitle: "Chief Medical Officer",
+                    authorImage: "https://images.pexels.com/photos/5452201/pexels-photo-5452201.jpeg?auto=compress&cs=tinysrgb&w=100",
+                    date: "2024-01-15",
+                    image: "https://images.pexels.com/photos/4386467/pexels-photo-4386467.jpeg?auto=compress&cs=tinysrgb&w=400",
+                    readTime: "5 min read",
+                    featured: true
+                },
+                {
+                    id: 2,
+                    title: "Understanding Childhood Vaccinations: A Parent's Complete Guide",
+                    excerpt: "Everything parents need to know about childhood immunizations, schedules, and safety.",
+                    category: "pediatrics",
+                    author: "Dr. Emily Chen",
+                    authorTitle: "Pediatrician",
+                    authorImage: "https://images.pexels.com/photos/5452274/pexels-photo-5452274.jpeg?auto=compress&cs=tinysrgb&w=100",
+                    date: "2024-01-12",
+                    image: "https://images.pexels.com/photos/4386467/pexels-photo-4386467.jpeg?auto=compress&cs=tinysrgb&w=400",
+                    readTime: "8 min read"
+                },
+                {
+                    id: 3,
+                    title: "The Science of Sleep: How Quality Rest Impacts Your Health",
+                    excerpt: "Explore the connection between sleep quality and overall health, plus tips for better rest.",
+                    category: "wellness",
+                    author: "Dr. Michael Rodriguez",
+                    authorTitle: "Sleep Medicine Specialist",
+                    authorImage: "https://images.pexels.com/photos/5452293/pexels-photo-5452293.jpeg?auto=compress&cs=tinysrgb&w=100",
+                    date: "2024-01-10",
+                    image: "https://images.pexels.com/photos/3771069/pexels-photo-3771069.jpeg?auto=compress&cs=tinysrgb&w=400",
+                    readTime: "6 min read"
+                },
+                {
+                    id: 4,
+                    title: "Nutrition Myths Debunked: What Science Really Says",
+                    excerpt: "Separating fact from fiction in the world of nutrition and healthy eating.",
+                    category: "nutrition",
+                    author: "Dr. Lisa Patel",
+                    authorTitle: "Nutritionist",
+                    authorImage: "https://images.pexels.com/photos/5327585/pexels-photo-5327585.jpeg?auto=compress&cs=tinysrgb&w=100",
+                    date: "2024-01-08",
+                    image: "https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?auto=compress&cs=tinysrgb&w=400",
+                    readTime: "7 min read"
+                },
+                {
+                    id: 5,
+                    title: "Managing Stress and Anxiety in Modern Life",
+                    excerpt: "Practical strategies for maintaining mental health in today's fast-paced world.",
+                    category: "mental-health",
+                    author: "Dr. Amanda Taylor",
+                    authorTitle: "Psychiatrist",
+                    authorImage: "https://images.pexels.com/photos/5327656/pexels-photo-5327656.jpeg?auto=compress&cs=tinysrgb&w=100",
+                    date: "2024-01-05",
+                    image: "https://images.pexels.com/photos/3759657/pexels-photo-3759657.jpeg?auto=compress&cs=tinysrgb&w=400",
+                    readTime: "9 min read"
+                },
+                {
+                    id: 6,
+                    title: "Preventive Care: Your First Line of Defense Against Disease",
+                    excerpt: "Why regular check-ups and screenings are crucial for maintaining long-term health.",
+                    category: "prevention",
+                    author: "Dr. Jennifer Wong",
+                    authorTitle: "Family Medicine",
+                    authorImage: "https://images.pexels.com/photos/5452297/pexels-photo-5452297.jpeg?auto=compress&cs=tinysrgb&w=100",
+                    date: "2024-01-03",
+                    image: "https://images.pexels.com/photos/4386467/pexels-photo-4386467.jpeg?auto=compress&cs=tinysrgb&w=400",
+                    readTime: "4 min read"
+                }
+            ];
+            
+            let currentFilter = 'all';
+            let displayedPosts = 6;
+            
+            function init() {
+                setupEventListeners();
+                renderBlogPosts();
+            }
+            
+            function setupEventListeners() {
+                // Filter buttons
+                const filterBtns = document.querySelectorAll('.filter-btn');
+                filterBtns.forEach(btn => {
+                    btn.addEventListener('click', handleFilterClick);
+                });
+                
+                // Category cards
+                const categoryCards = document.querySelectorAll('.category-card');
+                categoryCards.forEach(card => {
+                    card.addEventListener('click', (e) => {
+                        e.preventDefault();
+                        const category = card.dataset.category;
+                        setActiveFilter(category);
+                        renderBlogPosts();
+                    });
+                });
+                
+                // Load more button
+                const loadMoreBtn = document.getElementById('load-more-btn');
+                if (loadMoreBtn) {
+                    loadMoreBtn.addEventListener('click', loadMorePosts);
+                }
+                
+                // Newsletter form
+                const newsletterForm = document.getElementById('newsletter-form');
+                if (newsletterForm) {
+                    newsletterForm.addEventListener('submit', handleNewsletterSubmit);
+                }
+            }
+            
+            function handleFilterClick(e) {
+                const filter = e.target.dataset.filter;
+                setActiveFilter(filter);
+                renderBlogPosts();
+            }
+            
+            function setActiveFilter(filter) {
+                currentFilter = filter;
+                displayedPosts = 6; // Reset displayed posts count
+                
+                // Update active button
+                const filterBtns = document.querySelectorAll('.filter-btn');
+                filterBtns.forEach(btn => {
+                    btn.classList.toggle('filter-btn--active', btn.dataset.filter === filter);
+                });
+            }
+            
+            function renderBlogPosts() {
+                const grid = document.getElementById('blog-posts-grid');
+                if (!grid) return;
+                
+                const filteredPosts = currentFilter === 'all' 
+                    ? blogPosts 
+                    : blogPosts.filter(post => post.category === currentFilter);
+                
+                const postsToShow = filteredPosts.slice(0, displayedPosts);
+                
+                grid.innerHTML = postsToShow.map(post => createBlogPostHTML(post)).join('');
+                
+                // Update load more button
+                const loadMoreBtn = document.getElementById('load-more-btn');
+                if (loadMoreBtn) {
+                    loadMoreBtn.style.display = postsToShow.length < filteredPosts.length ? 'inline-flex' : 'none';
+                }
+            }
+            
+            function createBlogPostHTML(post) {
+                const categoryName = getCategoryName(post.category);
+                const formattedDate = formatDate(post.date);
+                
+                return `
+                    <article class="blog-post-card">
+                        <div class="blog-post-card__image">
+                            <img src="${post.image}" 
+                                 alt="${post.title}" 
+                                 loading="lazy"
+                                 width="400" 
+                                 height="250"
+                                 class="blog-post-card__img">
+                            <div class="blog-post-card__category">${categoryName}</div>
+                        </div>
+                        <div class="blog-post-card__content">
+                            <div class="blog-post-card__meta">
+                                <time class="blog-post-card__date" datetime="${post.date}">${formattedDate}</time>
+                                <span class="blog-post-card__read-time">${post.readTime}</span>
+                            </div>
+                            <h3 class="blog-post-card__title">
+                                <a href="/blog/post-${post.id}.html" class="blog-post-card__link">
+                                    ${post.title}
+                                </a>
+                            </h3>
+                            <p class="blog-post-card__excerpt">${post.excerpt}</p>
+                            <div class="blog-post-card__author">
+                                <img src="${post.authorImage}" 
+                                     alt="${post.author}" 
+                                     loading="lazy"
+                                     width="32" 
+                                     height="32"
+                                     class="blog-post-card__author-img">
+                                <div class="blog-post-card__author-info">
+                                    <span class="blog-post-card__author-name">${post.author}</span>
+                                    <span class="blog-post-card__author-title">${post.authorTitle}</span>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                `;
+            }
+            
+            function getCategoryName(category) {
+                const categoryMap = {
+                    'cardiology': 'Cardiology',
+                    'pediatrics': 'Pediatrics',
+                    'wellness': 'Wellness',
+                    'nutrition': 'Nutrition',
+                    'mental-health': 'Mental Health',
+                    'prevention': 'Prevention'
+                };
+                return categoryMap[category] || category;
+            }
+            
+            function formatDate(dateString) {
+                const date = new Date(dateString);
+                return date.toLocaleDateString('en-US', {
+                    year: 'numeric',
+                    month: 'long',
+                    day: 'numeric'
+                });
+            }
+            
+            function loadMorePosts() {
+                displayedPosts += 6;
+                renderBlogPosts();
+            }
+            
+            function handleNewsletterSubmit(e) {
+                e.preventDefault();
+                
+                const email = e.target.email.value;
+                
+                // Simulate newsletter signup
+                setTimeout(() => {
+                    alert('Thank you for subscribing to our newsletter!');
+                    e.target.reset();
+                }, 500);
+            }
+            
+            // Initialize when DOM is ready
+            if (document.readyState === 'loading') {
+                document.addEventListener('DOMContentLoaded', init);
+            } else {
+                init();
+            }
+        })();
+    </script>
+    
+    <style>
+        /* Blog-specific styles */
+        .featured-post {
+            padding: var(--space-3xl) 0;
+            background-color: var(--color-white);
+        }
+        
+        .featured-post__container {
+            max-width: 1280px;
+            margin: 0 auto;
+            padding: 0 var(--space-md);
+        }
+        
+        @media (min-width: 640px) {
+            .featured-post__container {
+                padding: 0 var(--space-lg);
+            }
+        }
+        
+        @media (min-width: 1024px) {
+            .featured-post__container {
+                padding: 0 var(--space-xl);
+            }
+        }
+        
+        .featured-article {
+            display: grid;
+            gap: var(--space-2xl);
+            background-color: var(--color-white);
+            border-radius: var(--border-radius-lg);
+            box-shadow: var(--shadow-lg);
+            overflow: hidden;
+        }
+        
+        @media (min-width: 768px) {
+            .featured-article {
+                grid-template-columns: 1fr 1fr;
+                align-items: center;
+            }
+        }
+        
+        .featured-article__image {
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .featured-article__img {
+            width: 100%;
+            height: 300px;
+            object-fit: cover;
+            transition: transform var(--transition-slow);
+        }
+        
+        @media (min-width: 768px) {
+            .featured-article__img {
+                height: 400px;
+            }
+        }
+        
+        .featured-article:hover .featured-article__img {
+            transform: scale(1.05);
+        }
+        
+        .featured-article__badge {
+            position: absolute;
+            top: var(--space-lg);
+            left: var(--space-lg);
+            padding: var(--space-sm) var(--space-md);
+            background-color: var(--color-primary);
+            color: var(--color-white);
+            font-size: var(--font-size-sm);
+            font-weight: var(--font-weight-medium);
+            border-radius: var(--border-radius-full);
+        }
+        
+        .featured-article__content {
+            padding: var(--space-xl);
+        }
+        
+        .featured-article__meta {
+            display: flex;
+            align-items: center;
+            gap: var(--space-md);
+            margin-bottom: var(--space-md);
+        }
+        
+        .featured-article__category {
+            padding: var(--space-xs) var(--space-sm);
+            background-color: var(--color-secondary);
+            color: var(--color-white);
+            font-size: var(--font-size-xs);
+            font-weight: var(--font-weight-medium);
+            border-radius: var(--border-radius-sm);
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+        
+        .featured-article__date {
+            font-size: var(--font-size-sm);
+            color: var(--color-gray-600);
+        }
+        
+        .featured-article__title {
+            margin-bottom: var(--space-md);
+        }
+        
+        .featured-article__link {
+            font-size: var(--font-size-xl);
+            font-weight: var(--font-weight-bold);
+            color: var(--color-gray-900);
+            text-decoration: none;
+            line-height: var(--line-height-tight);
+            transition: color var(--transition-fast);
+        }
+        
+        .featured-article__link:hover {
+            color: var(--color-primary);
+        }
+        
+        .featured-article__excerpt {
+            font-size: var(--font-size-base);
+            color: var(--color-gray-700);
+            line-height: var(--line-height-relaxed);
+            margin-bottom: var(--space-lg);
+        }
+        
+        .featured-article__author {
+            display: flex;
+            align-items: center;
+            gap: var(--space-md);
+        }
+        
+        .featured-article__author-img {
+            width: 40px;
+            height: 40px;
+            border-radius: var(--border-radius-full);
+            object-fit: cover;
+        }
+        
+        .featured-article__author-info {
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .featured-article__author-name {
+            font-size: var(--font-size-sm);
+            font-weight: var(--font-weight-medium);
+            color: var(--color-gray-900);
+        }
+        
+        .featured-article__author-title {
+            font-size: var(--font-size-xs);
+            color: var(--color-gray-600);
+        }
+        
+        /* Blog Categories */
+        .blog-categories {
+            padding: var(--space-3xl) 0;
+            background-color: var(--color-gray-50);
+        }
+        
+        .blog-categories__container {
+            max-width: 1280px;
+            margin: 0 auto;
+            padding: 0 var(--space-md);
+        }
+        
+        @media (min-width: 640px) {
+            .blog-categories__container {
+                padding: 0 var(--space-lg);
+            }
+        }
+        
+        @media (min-width: 1024px) {
+            .blog-categories__container {
+                padding: 0 var(--space-xl);
+            }
+        }
+        
+        .blog-categories__title {
+            font-size: var(--font-size-2xl);
+            font-weight: var(--font-weight-bold);
+            color: var(--color-gray-900);
+            text-align: center;
+            margin-bottom: var(--space-2xl);
+        }
+        
+        .blog-categories__grid {
+            display: grid;
+            gap: var(--space-lg);
+        }
+        
+        @media (min-width: 640px) {
+            .blog-categories__grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+        
+        @media (min-width: 768px) {
+            .blog-categories__grid {
+                grid-template-columns: repeat(3, 1fr);
+            }
+        }
+        
+        @media (min-width: 1024px) {
+            .blog-categories__grid {
+                grid-template-columns: repeat(6, 1fr);
+            }
+        }
+        
+        .category-card {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            padding: var(--space-lg);
+            background-color: var(--color-white);
+            border-radius: var(--border-radius-lg);
+            text-decoration: none;
+            transition: all var(--transition-base);
+        }
+        
+        .category-card:hover {
+            box-shadow: var(--shadow-lg);
+            transform: translateY(-2px);
+            text-decoration: none;
+        }
+        
+        .category-card__icon {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 48px;
+            height: 48px;
+            margin-bottom: var(--space-md);
+            color: var(--color-primary);
+            background-color: var(--color-gray-50);
+            border-radius: var(--border-radius-md);
+        }
+        
+        .category-card__title {
+            font-size: var(--font-size-base);
+            font-weight: var(--font-weight-semibold);
+            color: var(--color-gray-900);
+            margin-bottom: var(--space-xs);
+        }
+        
+        .category-card__count {
+            font-size: var(--font-size-sm);
+            color: var(--color-gray-600);
+        }
+        
+        /* Blog Posts */
+        .blog-posts {
+            padding: var(--space-4xl) 0;
+            background-color: var(--color-white);
+        }
+        
+        .blog-posts__container {
+            max-width: 1280px;
+            margin: 0 auto;
+            padding: 0 var(--space-md);
+        }
+        
+        @media (min-width: 640px) {
+            .blog-posts__container {
+                padding: 0 var(--space-lg);
+            }
+        }
+        
+        @media (min-width: 1024px) {
+            .blog-posts__container {
+                padding: 0 var(--space-xl);
+            }
+        }
+        
+        .blog-posts__header {
+            display: flex;
+            flex-direction: column;
+            gap: var(--space-lg);
+            margin-bottom: var(--space-3xl);
+        }
+        
+        @media (min-width: 768px) {
+            .blog-posts__header {
+                flex-direction: row;
+                justify-content: space-between;
+                align-items: center;
+            }
+        }
+        
+        .blog-posts__title {
+            font-size: var(--font-size-2xl);
+            font-weight: var(--font-weight-bold);
+            color: var(--color-gray-900);
+            margin-bottom: 0;
+        }
+        
+        .blog-posts__filters {
+            display: flex;
+            gap: var(--space-sm);
+            flex-wrap: wrap;
+        }
+        
+        .filter-btn {
+            padding: var(--space-sm) var(--space-md);
+            font-size: var(--font-size-sm);
+            font-weight: var(--font-weight-medium);
+            color: var(--color-gray-600);
+            background-color: var(--color-gray-100);
+            border: none;
+            border-radius: var(--border-radius-full);
+            cursor: pointer;
+            transition: all var(--transition-fast);
+        }
+        
+        .filter-btn:hover,
+        .filter-btn--active {
+            color: var(--color-white);
+            background-color: var(--color-primary);
+        }
+        
+        .blog-posts__grid {
+            display: grid;
+            gap: var(--space-xl);
+            margin-bottom: var(--space-3xl);
+        }
+        
+        @media (min-width: 640px) {
+            .blog-posts__grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+        
+        @media (min-width: 1024px) {
+            .blog-posts__grid {
+                grid-template-columns: repeat(3, 1fr);
+            }
+        }
+        
+        .blog-post-card {
+            display: flex;
+            flex-direction: column;
+            background-color: var(--color-white);
+            border: var(--border-width) solid var(--color-gray-200);
+            border-radius: var(--border-radius-lg);
+            box-shadow: var(--shadow-sm);
+            overflow: hidden;
+            transition: all var(--transition-base);
+        }
+        
+        .blog-post-card:hover {
+            box-shadow: var(--shadow-lg);
+            transform: translateY(-2px);
+        }
+        
+        .blog-post-card__image {
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .blog-post-card__img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            transition: transform var(--transition-slow);
+        }
+        
+        .blog-post-card:hover .blog-post-card__img {
+            transform: scale(1.05);
+        }
+        
+        .blog-post-card__category {
+            position: absolute;
+            top: var(--space-md);
+            left: var(--space-md);
+            padding: var(--space-xs) var(--space-sm);
+            background-color: var(--color-primary);
+            color: var(--color-white);
+            font-size: var(--font-size-xs);
+            font-weight: var(--font-weight-medium);
+            border-radius: var(--border-radius-sm);
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+        
+        .blog-post-card__content {
+            padding: var(--space-lg);
+            display: flex;
+            flex-direction: column;
+            flex-grow: 1;
+        }
+        
+        .blog-post-card__meta {
+            display: flex;
+            align-items: center;
+            gap: var(--space-md);
+            margin-bottom: var(--space-md);
+        }
+        
+        .blog-post-card__date,
+        .blog-post-card__read-time {
+            font-size: var(--font-size-xs);
+            color: var(--color-gray-600);
+        }
+        
+        .blog-post-card__title {
+            margin-bottom: var(--space-md);
+        }
+        
+        .blog-post-card__link {
+            font-size: var(--font-size-lg);
+            font-weight: var(--font-weight-semibold);
+            color: var(--color-gray-900);
+            text-decoration: none;
+            line-height: var(--line-height-tight);
+            transition: color var(--transition-fast);
+        }
+        
+        .blog-post-card__link:hover {
+            color: var(--color-primary);
+        }
+        
+        .blog-post-card__excerpt {
+            font-size: var(--font-size-sm);
+            color: var(--color-gray-600);
+            line-height: var(--line-height-relaxed);
+            margin-bottom: var(--space-lg);
+            flex-grow: 1;
+        }
+        
+        .blog-post-card__author {
+            display: flex;
+            align-items: center;
+            gap: var(--space-sm);
+            margin-top: auto;
+        }
+        
+        .blog-post-card__author-img {
+            width: 32px;
+            height: 32px;
+            border-radius: var(--border-radius-full);
+            object-fit: cover;
+        }
+        
+        .blog-post-card__author-info {
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .blog-post-card__author-name {
+            font-size: var(--font-size-xs);
+            font-weight: var(--font-weight-medium);
+            color: var(--color-gray-900);
+        }
+        
+        .blog-post-card__author-title {
+            font-size: var(--font-size-xs);
+            color: var(--color-gray-600);
+        }
+        
+        .blog-posts__pagination {
+            text-align: center;
+        }
+        
+        /* Newsletter */
+        .newsletter {
+            padding: var(--space-4xl) 0;
+            background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-primary-dark) 100%);
+            color: var(--color-white);
+        }
+        
+        .newsletter__container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 0 var(--space-md);
+            text-align: center;
+        }
+        
+        @media (min-width: 640px) {
+            .newsletter__container {
+                padding: 0 var(--space-lg);
+            }
+        }
+        
+        @media (min-width: 1024px) {
+            .newsletter__container {
+                padding: 0 var(--space-xl);
+            }
+        }
+        
+        .newsletter__title {
+            font-size: var(--font-size-2xl);
+            font-weight: var(--font-weight-bold);
+            color: var(--color-white);
+            margin-bottom: var(--space-md);
+        }
+        
+        .newsletter__description {
+            font-size: var(--font-size-lg);
+            color: rgba(255, 255, 255, 0.9);
+            line-height: var(--line-height-relaxed);
+            margin-bottom: var(--space-xl);
+        }
+        
+        .newsletter__form {
+            max-width: 500px;
+            margin: 0 auto;
+        }
+        
+        .newsletter__input-group {
+            display: flex;
+            gap: var(--space-sm);
+            margin-bottom: var(--space-md);
+        }
+        
+        @media (max-width: 640px) {
+            .newsletter__input-group {
+                flex-direction: column;
+            }
+        }
+        
+        .newsletter__input {
+            flex: 1;
+            padding: var(--space-md);
+            font-size: var(--font-size-base);
+            border: none;
+            border-radius: var(--border-radius-md);
+            background-color: var(--color-white);
+        }
+        
+        .newsletter__input:focus {
+            outline: 2px solid var(--color-secondary);
+        }
+        
+        .newsletter__btn {
+            padding: var(--space-md) var(--space-xl);
+            font-size: var(--font-size-base);
+            font-weight: var(--font-weight-medium);
+            color: var(--color-primary);
+            background-color: var(--color-white);
+            border: none;
+            border-radius: var(--border-radius-md);
+            cursor: pointer;
+            transition: all var(--transition-fast);
+            white-space: nowrap;
+        }
+        
+        .newsletter__btn:hover {
+            background-color: var(--color-gray-100);
+        }
+        
+        .newsletter__privacy {
+            font-size: var(--font-size-xs);
+            color: rgba(255, 255, 255, 0.8);
+            margin-bottom: 0;
+        }
+        
+        .newsletter__privacy a {
+            color: var(--color-white);
+            text-decoration: underline;
+        }
+    </style>
+</body>
+</html>

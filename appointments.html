@@ -1,0 +1,655 @@
+<!--
+  MIT License
+  Copyright (c) 2025 ScriptedWebs
+-->
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Schedule your appointment at MedCare Hospital. Book online with our expert doctors and specialists for convenient healthcare access.">
+    <title>Schedule Appointment - MedCare Hospital</title>
+    
+    <link rel="stylesheet" href="/assets/css/main.css">
+    <link rel="icon" type="image/svg+xml" href="/assets/images/favicon.svg">
+    <link rel="canonical" href="https://medcare-hospital.com/appointments.html">
+    
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://medcare-hospital.com"
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Appointments"
+            }
+        ]
+    }
+    </script>
+</head>
+<body>
+    <a href="#main" class="skip-link">Skip to main content</a>
+    
+    <header class="header" role="banner">
+        <nav class="nav" role="navigation" aria-label="Main navigation">
+            <div class="nav__container">
+                <a href="/" class="nav__logo" aria-label="MedCare Hospital Home">
+                    <svg class="nav__logo-svg" width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect width="40" height="40" rx="8" fill="var(--color-primary)"/>
+                        <path d="M20 8L22 12H28L24 16L26 20L20 16L14 20L16 16L12 12H18L20 8Z" fill="white"/>
+                        <rect x="18" y="22" width="4" height="10" fill="white"/>
+                        <rect x="13" y="27" width="14" height="4" fill="white"/>
+                    </svg>
+                    <span class="nav__logo-text">MedCare</span>
+                </a>
+                
+                <button class="nav__toggle" aria-label="Toggle navigation menu" aria-expanded="false">
+                    <span class="nav__hamburger"></span>
+                </button>
+                
+                <ul class="nav__menu" role="menubar">
+                    <li class="nav__item" role="none">
+                        <a href="/" class="nav__link" role="menuitem">Home</a>
+                    </li>
+                    <li class="nav__item" role="none">
+                        <a href="/about.html" class="nav__link" role="menuitem">About</a>
+                    </li>
+                    <li class="nav__item" role="none">
+                        <a href="/services.html" class="nav__link" role="menuitem">Services</a>
+                    </li>
+                    <li class="nav__item" role="none">
+                        <a href="/doctors.html" class="nav__link" role="menuitem">Doctors</a>
+                    </li>
+                    <li class="nav__item" role="none">
+                        <a href="/appointments.html" class="nav__link nav__link--active" role="menuitem">Appointments</a>
+                    </li>
+                    <li class="nav__item" role="none">
+                        <a href="/contact.html" class="nav__link" role="menuitem">Contact</a>
+                    </li>
+                    <li class="nav__item" role="none">
+                        <a href="/blog.html" class="nav__link" role="menuitem">Blog</a>
+                    </li>
+                </ul>
+                
+                <button class="theme-toggle" aria-label="Toggle dark mode" title="Toggle dark mode">
+                    <svg class="theme-toggle__icon theme-toggle__icon--light" width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="12" cy="12" r="5" stroke="currentColor" stroke-width="2"/>
+                        <path d="M12 1V3M12 21V23M4.22 4.22L5.64 5.64M18.36 18.36L19.78 19.78M1 12H3M21 12H23M4.22 19.78L5.64 18.36M18.36 5.64L19.78 4.22" stroke="currentColor" stroke-width="2"/>
+                    </svg>
+                    <svg class="theme-toggle__icon theme-toggle__icon--dark" width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79Z" stroke="currentColor" stroke-width="2"/>
+                    </svg>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <main id="main" class="main" role="main">
+        <!-- Breadcrumb -->
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+            <div class="breadcrumb__container">
+                <ol class="breadcrumb__list">
+                    <li class="breadcrumb__item">
+                        <a href="/" class="breadcrumb__link">Home</a>
+                    </li>
+                    <li class="breadcrumb__item breadcrumb__item--current" aria-current="page">
+                        Appointments
+                    </li>
+                </ol>
+            </div>
+        </nav>
+
+        <!-- Page Hero -->
+        <section class="page-hero" aria-labelledby="page-hero-title">
+            <div class="page-hero__container">
+                <div class="page-hero__content">
+                    <h1 id="page-hero-title" class="page-hero__title">Schedule Your Appointment</h1>
+                    <p class="page-hero__description">
+                        Book your appointment online with our experienced medical professionals. We're here to provide the care you need, when you need it.
+                    </p>
+                </div>
+                <div class="page-hero__image">
+                    <img src="https://images.pexels.com/photos/4173251/pexels-photo-4173251.jpeg?auto=compress&cs=tinysrgb&w=800" 
+                         alt="Patient consultation at MedCare Hospital" 
+                         loading="eager"
+                         width="600" 
+                         height="400"
+                         class="page-hero__img">
+                </div>
+            </div>
+        </section>
+
+        <!-- Appointment Form -->
+        <section class="appointment-form" aria-labelledby="appointment-form-title">
+            <div class="appointment-form__container">
+                <div class="appointment-form__header">
+                    <h2 id="appointment-form-title" class="appointment-form__title">Book Your Appointment</h2>
+                    <p class="appointment-form__description">
+                        Please fill out the form below to schedule your appointment. All fields marked with * are required.
+                    </p>
+                </div>
+                
+                <form id="appointment-form" class="form" novalidate>
+                    <!-- Personal Information -->
+                    <fieldset class="form__section">
+                        <legend class="form__legend">Personal Information</legend>
+                        
+                        <div class="form__row">
+                            <div class="form__group">
+                                <label for="first-name" class="form__label">First Name *</label>
+                                <input type="text" 
+                                       id="first-name" 
+                                       name="firstName" 
+                                       class="form__input" 
+                                       required 
+                                       aria-describedby="first-name-error"
+                                       autocomplete="given-name">
+                                <div id="first-name-error" class="form__error" role="alert"></div>
+                            </div>
+                            
+                            <div class="form__group">
+                                <label for="last-name" class="form__label">Last Name *</label>
+                                <input type="text" 
+                                       id="last-name" 
+                                       name="lastName" 
+                                       class="form__input" 
+                                       required 
+                                       aria-describedby="last-name-error"
+                                       autocomplete="family-name">
+                                <div id="last-name-error" class="form__error" role="alert"></div>
+                            </div>
+                        </div>
+                        
+                        <div class="form__row">
+                            <div class="form__group">
+                                <label for="email" class="form__label">Email Address *</label>
+                                <input type="email" 
+                                       id="email" 
+                                       name="email" 
+                                       class="form__input" 
+                                       required 
+                                       aria-describedby="email-error"
+                                       autocomplete="email">
+                                <div id="email-error" class="form__error" role="alert"></div>
+                            </div>
+                            
+                            <div class="form__group">
+                                <label for="phone" class="form__label">Phone Number *</label>
+                                <input type="tel" 
+                                       id="phone" 
+                                       name="phone" 
+                                       class="form__input" 
+                                       required 
+                                       aria-describedby="phone-error"
+                                       autocomplete="tel"
+                                       placeholder="(555) 123-4567">
+                                <div id="phone-error" class="form__error" role="alert"></div>
+                            </div>
+                        </div>
+                        
+                        <div class="form__row">
+                            <div class="form__group">
+                                <label for="date-of-birth" class="form__label">Date of Birth *</label>
+                                <input type="date" 
+                                       id="date-of-birth" 
+                                       name="dateOfBirth" 
+                                       class="form__input" 
+                                       required 
+                                       aria-describedby="dob-error"
+                                       autocomplete="bday">
+                                <div id="dob-error" class="form__error" role="alert"></div>
+                            </div>
+                            
+                            <div class="form__group">
+                                <label for="gender" class="form__label">Gender</label>
+                                <select id="gender" name="gender" class="form__select" autocomplete="sex">
+                                    <option value="">Select Gender</option>
+                                    <option value="male">Male</option>
+                                    <option value="female">Female</option>
+                                    <option value="other">Other</option>
+                                    <option value="prefer-not-to-say">Prefer not to say</option>
+                                </select>
+                            </div>
+                        </div>
+                    </fieldset>
+                    
+                    <!-- Appointment Details -->
+                    <fieldset class="form__section">
+                        <legend class="form__legend">Appointment Details</legend>
+                        
+                        <div class="form__row">
+                            <div class="form__group">
+                                <label for="department" class="form__label">Department *</label>
+                                <select id="department" 
+                                        name="department" 
+                                        class="form__select" 
+                                        required 
+                                        aria-describedby="department-error">
+                                    <option value="">Select Department</option>
+                                    <option value="cardiology">Cardiology</option>
+                                    <option value="pediatrics">Pediatrics</option>
+                                    <option value="orthopedics">Orthopedics</option>
+                                    <option value="neurology">Neurology</option>
+                                    <option value="oncology">Oncology</option>
+                                    <option value="womens-health">Women's Health</option>
+                                    <option value="emergency">Emergency Medicine</option>
+                                    <option value="internal-medicine">Internal Medicine</option>
+                                </select>
+                                <div id="department-error" class="form__error" role="alert"></div>
+                            </div>
+                            
+                            <div class="form__group">
+                                <label for="doctor" class="form__label">Preferred Doctor</label>
+                                <select id="doctor" 
+                                        name="doctor" 
+                                        class="form__select" 
+                                        aria-describedby="doctor-help"
+                                        disabled>
+                                    <option value="">Select Doctor</option>
+                                </select>
+                                <div id="doctor-help" class="form__help">Select a department first to see available doctors</div>
+                            </div>
+                        </div>
+                        
+                        <div class="form__row">
+                            <div class="form__group">
+                                <label for="appointment-date" class="form__label">Preferred Date *</label>
+                                <input type="date" 
+                                       id="appointment-date" 
+                                       name="appointmentDate" 
+                                       class="form__input" 
+                                       required 
+                                       aria-describedby="appointment-date-error">
+                                <div id="appointment-date-error" class="form__error" role="alert"></div>
+                            </div>
+                            
+                            <div class="form__group">
+                                <label for="appointment-time" class="form__label">Preferred Time *</label>
+                                <select id="appointment-time" 
+                                        name="appointmentTime" 
+                                        class="form__select" 
+                                        required 
+                                        aria-describedby="appointment-time-error">
+                                    <option value="">Select Time</option>
+                                    <option value="08:00">8:00 AM</option>
+                                    <option value="09:00">9:00 AM</option>
+                                    <option value="10:00">10:00 AM</option>
+                                    <option value="11:00">11:00 AM</option>
+                                    <option value="12:00">12:00 PM</option>
+                                    <option value="13:00">1:00 PM</option>
+                                    <option value="14:00">2:00 PM</option>
+                                    <option value="15:00">3:00 PM</option>
+                                    <option value="16:00">4:00 PM</option>
+                                    <option value="17:00">5:00 PM</option>
+                                </select>
+                                <div id="appointment-time-error" class="form__error" role="alert"></div>
+                            </div>
+                        </div>
+                        
+                        <div class="form__group">
+                            <label for="appointment-type" class="form__label">Appointment Type *</label>
+                            <select id="appointment-type" 
+                                    name="appointmentType" 
+                                    class="form__select" 
+                                    required 
+                                    aria-describedby="appointment-type-error">
+                                <option value="">Select Type</option>
+                                <option value="new-patient">New Patient Consultation</option>
+                                <option value="follow-up">Follow-up Appointment</option>
+                                <option value="routine-checkup">Routine Checkup</option>
+                                <option value="specialist-consultation">Specialist Consultation</option>
+                                <option value="procedure">Procedure</option>
+                                <option value="urgent-care">Urgent Care</option>
+                            </select>
+                            <div id="appointment-type-error" class="form__error" role="alert"></div>
+                        </div>
+                        
+                        <div class="form__group">
+                            <label for="reason" class="form__label">Reason for Visit *</label>
+                            <textarea id="reason" 
+                                      name="reason" 
+                                      class="form__textarea" 
+                                      required 
+                                      aria-describedby="reason-error"
+                                      rows="4" 
+                                      placeholder="Please describe the reason for your visit..."></textarea>
+                            <div id="reason-error" class="form__error" role="alert"></div>
+                        </div>
+                    </fieldset>
+                    
+                    <!-- Insurance Information -->
+                    <fieldset class="form__section">
+                        <legend class="form__legend">Insurance Information</legend>
+                        
+                        <div class="form__row">
+                            <div class="form__group">
+                                <label for="insurance-provider" class="form__label">Insurance Provider</label>
+                                <input type="text" 
+                                       id="insurance-provider" 
+                                       name="insuranceProvider" 
+                                       class="form__input"
+                                       placeholder="e.g., Blue Cross Blue Shield">
+                            </div>
+                            
+                            <div class="form__group">
+                                <label for="policy-number" class="form__label">Policy Number</label>
+                                <input type="text" 
+                                       id="policy-number" 
+                                       name="policyNumber" 
+                                       class="form__input"
+                                       placeholder="Policy or Member ID">
+                            </div>
+                        </div>
+                    </fieldset>
+                    
+                    <!-- Emergency Contact -->
+                    <fieldset class="form__section">
+                        <legend class="form__legend">Emergency Contact</legend>
+                        
+                        <div class="form__row">
+                            <div class="form__group">
+                                <label for="emergency-name" class="form__label">Emergency Contact Name *</label>
+                                <input type="text" 
+                                       id="emergency-name" 
+                                       name="emergencyName" 
+                                       class="form__input" 
+                                       required 
+                                       aria-describedby="emergency-name-error"
+                                       autocomplete="name">
+                                <div id="emergency-name-error" class="form__error" role="alert"></div>
+                            </div>
+                            
+                            <div class="form__group">
+                                <label for="emergency-phone" class="form__label">Emergency Contact Phone *</label>
+                                <input type="tel" 
+                                       id="emergency-phone" 
+                                       name="emergencyPhone" 
+                                       class="form__input" 
+                                       required 
+                                       aria-describedby="emergency-phone-error"
+                                       autocomplete="tel"
+                                       placeholder="(555) 123-4567">
+                                <div id="emergency-phone-error" class="form__error" role="alert"></div>
+                            </div>
+                        </div>
+                        
+                        <div class="form__group">
+                            <label for="emergency-relationship" class="form__label">Relationship *</label>
+                            <select id="emergency-relationship" 
+                                    name="emergencyRelationship" 
+                                    class="form__select" 
+                                    required 
+                                    aria-describedby="emergency-relationship-error">
+                                <option value="">Select Relationship</option>
+                                <option value="spouse">Spouse</option>
+                                <option value="parent">Parent</option>
+                                <option value="child">Child</option>
+                                <option value="sibling">Sibling</option>
+                                <option value="friend">Friend</option>
+                                <option value="other">Other</option>
+                            </select>
+                            <div id="emergency-relationship-error" class="form__error" role="alert"></div>
+                        </div>
+                    </fieldset>
+                    
+                    <!-- Consent -->
+                    <fieldset class="form__section">
+                        <legend class="form__legend">Consent and Agreement</legend>
+                        
+                        <div class="form__checkbox-group">
+                            <label class="form__checkbox-label">
+                                <input type="checkbox" 
+                                       id="privacy-consent" 
+                                       name="privacyConsent" 
+                                       class="form__checkbox" 
+                                       required 
+                                       aria-describedby="privacy-error">
+                                <span class="form__checkbox-custom" aria-hidden="true"></span>
+                                I agree to the <a href="/privacy.html" target="_blank" rel="noopener">Privacy Policy</a> and consent to the collection and use of my personal information. *
+                            </label>
+                            <div id="privacy-error" class="form__error" role="alert"></div>
+                        </div>
+                        
+                        <div class="form__checkbox-group">
+                            <label class="form__checkbox-label">
+                                <input type="checkbox" 
+                                       id="terms-consent" 
+                                       name="termsConsent" 
+                                       class="form__checkbox" 
+                                       required 
+                                       aria-describedby="terms-error">
+                                <span class="form__checkbox-custom" aria-hidden="true"></span>
+                                I acknowledge that I have read and agree to the <a href="/terms.html" target="_blank" rel="noopener">Terms of Service</a>. *
+                            </label>
+                            <div id="terms-error" class="form__error" role="alert"></div>
+                        </div>
+                        
+                        <div class="form__checkbox-group">
+                            <label class="form__checkbox-label">
+                                <input type="checkbox" 
+                                       id="treatment-consent" 
+                                       name="treatmentConsent" 
+                                       class="form__checkbox" 
+                                       required 
+                                       aria-describedby="treatment-error">
+                                <span class="form__checkbox-custom" aria-hidden="true"></span>
+                                I consent to examination and treatment by the healthcare professionals at MedCare Hospital. *
+                            </label>
+                            <div id="treatment-error" class="form__error" role="alert"></div>
+                        </div>
+                        
+                        <div class="form__checkbox-group">
+                            <label class="form__checkbox-label">
+                                <input type="checkbox" 
+                                       id="communication-consent" 
+                                       name="communicationConsent" 
+                                       class="form__checkbox">
+                                <span class="form__checkbox-custom" aria-hidden="true"></span>
+                                I consent to receive appointment reminders and healthcare communications via email and phone.
+                            </label>
+                        </div>
+                    </fieldset>
+                    
+                    <!-- Form Actions -->
+                    <div class="form__actions">
+                        <button type="button" class="btn btn--secondary" onclick="resetForm()">Reset Form</button>
+                        <button type="submit" class="btn btn--primary" id="submit-btn">
+                            <span class="btn__text">Schedule Appointment</span>
+                            <span class="btn__loader" style="display: none;">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-dasharray="31.416" stroke-dashoffset="31.416">
+                                        <animate attributeName="stroke-dashoffset" dur="2s" values="31.416;0;31.416" repeatCount="indefinite"/>
+                                        <animate attributeName="stroke-dasharray" dur="2s" values="0 31.416;15.708 15.708;0 31.416" repeatCount="indefinite"/>
+                                    </circle>
+                                </svg>
+                            </span>
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </section>
+
+        <!-- Success Modal -->
+        <div class="modal" id="success-modal" role="dialog" aria-modal="true" aria-labelledby="success-modal-title" style="display: none;">
+            <div class="modal__backdrop" aria-hidden="true"></div>
+            <div class="modal__content modal__content--success">
+                <div class="modal__header">
+                    <h2 id="success-modal-title" class="modal__title">Appointment Scheduled Successfully!</h2>
+                </div>
+                <div class="modal__body">
+                    <div class="success-message">
+                        <svg class="success-message__icon" width="48" height="48" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="2"/>
+                            <path d="M9 12L11 14L15 10" stroke="currentColor" stroke-width="2"/>
+                        </svg>
+                        <p class="success-message__text">
+                            Thank you for scheduling your appointment with MedCare Hospital. You will receive a confirmation email shortly with your appointment details.
+                        </p>
+                        <div class="success-message__details" id="appointment-details">
+                            <!-- Appointment details will be populated here -->
+                        </div>
+                    </div>
+                    <div class="modal__actions">
+                        <button class="btn btn--primary" onclick="closeSuccessModal()">Close</button>
+                        <button class="btn btn--secondary" onclick="scheduleAnother()">Schedule Another</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Contact Info -->
+        <section class="contact-info" aria-labelledby="contact-info-title">
+            <div class="contact-info__container">
+                <div class="section-header">
+                    <h2 id="contact-info-title" class="section-header__title">Need Help with Your Appointment?</h2>
+                    <p class="section-header__description">
+                        Our patient services team is here to assist you
+                    </p>
+                </div>
+                
+                <div class="contact-info__grid">
+                    <div class="contact-info__item">
+                        <div class="contact-info__icon">
+                            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M22 16.92V21C22 21.55 21.55 22 21 22C9.4 22 0 12.6 0 1C0 0.45 0.45 0 1 0H5.08C5.63 0 6.08 0.45 6.08 1C6.08 3.17 6.42 5.27 7.08 7.23C7.2 7.64 7.07 8.08 6.74 8.38L4.12 10.64C6.42 15.52 10.48 19.58 15.36 21.88L17.62 19.26C17.92 18.93 18.36 18.8 18.77 18.92C20.73 19.58 22.83 19.92 25 19.92C25.55 19.92 26 20.37 26 20.92Z" fill="currentColor"/>
+                            </svg>
+                        </div>
+                        <h3 class="contact-info__title">Call Us</h3>
+                        <p class="contact-info__description">
+                            <a href="tel:+1555MEDCARE" class="contact-info__link">+1-555-MEDCARE</a><br>
+                            Monday - Friday: 8:00 AM - 6:00 PM
+                        </p>
+                    </div>
+                    
+                    <div class="contact-info__item">
+                        <div class="contact-info__icon">
+                            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M4 4H20C21.1 4 22 4.9 22 6V18C22 19.1 21.1 20 20 20H4C2.9 20 2 19.1 2 18V6C2 4.9 2.9 4 4 4Z" stroke="currentColor" stroke-width="2"/>
+                                <polyline points="22,6 12,13 2,6" stroke="currentColor" stroke-width="2"/>
+                            </svg>
+                        </div>
+                        <h3 class="contact-info__title">Email Us</h3>
+                        <p class="contact-info__description">
+                            <a href="mailto:appointments@medcare-hospital.com" class="contact-info__link">appointments@medcare-hospital.com</a><br>
+                            We'll respond within 24 hours
+                        </p>
+                    </div>
+                    
+                    <div class="contact-info__item">
+                        <div class="contact-info__icon">
+                            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M22 12H18L15 21L9 3L6 12H2" stroke="currentColor" stroke-width="2"/>
+                            </svg>
+                        </div>
+                        <h3 class="contact-info__title">Emergency</h3>
+                        <p class="contact-info__description">
+                            <a href="tel:911" class="contact-info__link">Call 911</a><br>
+                            24/7 Emergency Services Available
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer" role="contentinfo">
+        <div class="footer__container">
+            <div class="footer__main">
+                <div class="footer__section">
+                    <div class="footer__logo">
+                        <svg width="32" height="32" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect width="40" height="40" rx="8" fill="var(--color-primary)"/>
+                            <path d="M20 8L22 12H28L24 16L26 20L20 16L14 20L16 16L12 12H18L20 8Z" fill="white"/>
+                            <rect x="18" y="22" width="4" height="10" fill="white"/>
+                            <rect x="13" y="27" width="14" height="4" fill="white"/>
+                        </svg>
+                        <span class="footer__logo-text">MedCare Hospital</span>
+                    </div>
+                    <p class="footer__description">
+                        Providing exceptional healthcare services with compassion, expertise, and state-of-the-art technology.
+                    </p>
+                    <div class="footer__contact">
+                        <p><strong>Emergency:</strong> <a href="tel:911" class="footer__link">911</a></p>
+                        <p><strong>Main:</strong> <a href="tel:+1555MEDCARE" class="footer__link">+1-555-MEDCARE</a></p>
+                        <p><strong>Email:</strong> <a href="mailto:info@medcare-hospital.com" class="footer__link">info@medcare-hospital.com</a></p>
+                    </div>
+                </div>
+                
+                <div class="footer__section">
+                    <h3 class="footer__title">Quick Links</h3>
+                    <ul class="footer__links">
+                        <li><a href="/about.html" class="footer__link">About Us</a></li>
+                        <li><a href="/services.html" class="footer__link">Services</a></li>
+                        <li><a href="/doctors.html" class="footer__link">Find a Doctor</a></li>
+                        <li><a href="/appointments.html" class="footer__link">Appointments</a></li>
+                        <li><a href="/contact.html" class="footer__link">Contact</a></li>
+                        <li><a href="/faq.html" class="footer__link">FAQ</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer__section">
+                    <h3 class="footer__title">Patient Resources</h3>
+                    <ul class="footer__links">
+                        <li><a href="/blog.html" class="footer__link">Health Blog</a></li>
+                        <li><a href="/privacy.html" class="footer__link">Privacy Policy</a></li>
+                        <li><a href="/terms.html" class="footer__link">Terms of Service</a></li>
+                        <li><a href="#" class="footer__link">Patient Portal</a></li>
+                        <li><a href="#" class="footer__link">Insurance</a></li>
+                        <li><a href="#" class="footer__link">Billing</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer__section">
+                    <h3 class="footer__title">Visit Us</h3>
+                    <address class="footer__address">
+                        123 Medical Drive<br>
+                        Healthcare City, HC 12345<br>
+                        United States
+                    </address>
+                    <p class="footer__hours">
+                        <strong>Emergency:</strong> 24/7<br>
+                        <strong>Clinic Hours:</strong> Mon-Fri 8AM-6PM
+                    </p>
+                </div>
+            </div>
+            
+            <div class="footer__bottom">
+                <p class="footer__copyright">
+                    &copy; 2025 MedCare Hospital. All rights reserved. | | Developed by
+                    <a href="https://www.scriptedwebs.in" target="_blank" rel="noopener noreferrer">ScriptedWebs</a>
+                </p>
+                <div class="footer__social">
+                    <a href="#" class="footer__social-link" aria-label="Facebook">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+                        </svg>
+                    </a>
+                    <a href="#" class="footer__social-link" aria-label="Twitter">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z"/>
+                        </svg>
+                    </a>
+                    <a href="#" class="footer__social-link" aria-label="LinkedIn">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="/assets/js/main.js"></script>
+    <script src="/assets/js/forms.js"></script>
+</body>
+</html>
